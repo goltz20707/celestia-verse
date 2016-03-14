@@ -1,0 +1,273 @@
+#
+# Data from "The Verse in Numbers", version 2.1 (http://pics.fireflyprops.net/TVIN-2.1.pdf),
+# except for the following:
+#
+# -- Spectral types of protostars are all G0.  This is based on the assumption that they
+#    would have been "stellarformed" to be as close to Old Sol as possible.
+#
+# -- Eccentricity, inclination, ascensing node, and argument of pericenter are all zero.
+#
+# -- Mean anomaly is a random integer from 0-359.99.  The exception is Red Sun, which is
+#    the anomaly of Georgia plus 180 (since Georgia and Red Sun occupy each other's L3
+#    points).
+
+Star 340000 "White Sun:White Tiger:Bai Hu:34 Tauri(2020)A"
+
+   {
+   RA 67.25
+   Dec 16.45
+   Distance 40
+   SpectralType "A0"
+   AbsMag 0.09228
+   Radius 1738750
+   RotationPeriod 720
+   }
+
+Star "Qin Shi Huang:P/2020(White Sun)01"
+
+   {
+   OrbitBarycenter "White Sun"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 132145
+   EllipticalOrbit
+     {
+     Period 65.88
+     SemiMajorAxis 16.312
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 248.32
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Lux:P/2020(White Sun)02"
+
+   {
+   OrbitBarycenter "White Sun"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 159965
+   EllipticalOrbit
+     {
+     Period 164.32
+     SemiMajorAxis 30.0
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 325.88
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Georgia:Yellow Dragon:Huang Long:34 Tauri(2020)B"
+
+   {
+   OrbitBarycenter "White Sun"
+   SpectralType "G0"
+   AbsMag 4.599
+   Radius 730275
+   EllipticalOrbit
+     {
+     Period 560.74
+     SemiMajorAxis 68
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 325.88
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+# Barycenter "Ithaca-Priam"
+# {
+#    OrbitBarycenter "Georgia"
+#    EllipticalOrbit
+#      {
+#       Period 4.19
+#       SemiMajorAxis 2.600
+#       Eccentricity 0
+#       Inclination 0
+#       AscendingNode 0
+#       ArgOfPericenter 0
+#       MeanAnomaly 269.241
+#       Epoch 2638364.5
+#      }
+#    }
+# }
+
+Star "Murphy:P/2020(Georgia)01"
+
+   {
+   OrbitBarycenter "Georgia"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 153010
+   EllipticalOrbit
+     {
+     Period 64
+     SemiMajorAxis 16.401
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 145.88
+     Epoch 2638364.5
+     }
+   RotationPeriod 145.88
+   }
+
+Star "Red Sun:Red Phoenix:Zhu Que:34 Tauri(2020)C"
+
+   {
+   OrbitBarycenter "White Sun"
+   SpectralType "G5"
+   AbsMag 5.106
+   Radius 646815
+   EllipticalOrbit
+     {
+     Period 560.74
+     SemiMajorAxis 68.0
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 162.03
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Himinbjorg:P/2020(Red Sun)01"
+
+   {
+   OrbitBarycenter "Red Sun"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 159965
+   EllipticalOrbit
+     {
+     Period 63.72
+     SemiMajorAxis 15.953
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 146.97
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Heinlein:P/2020(Red Sun)02"
+
+   {
+   OrbitBarycenter "Red Sun"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 166920
+   EllipticalOrbit
+     {
+     Period 102.08
+     SemiMajorAxis 21.843
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 286.88
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Kalidasa:Black Tortoise:Xuan Wu:34Tauri(2020)D"
+
+   {
+   OrbitBarycenter "White Sun"
+   SpectralType "F5"
+   AbsMag 3.855
+   Radius 834600
+   EllipticalOrbit
+     {
+     Period 1331.00
+     SemiMajorAxis 121.0
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 223.20
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Penglai:P/2020(Kalidasa)01"
+
+   {
+   OrbitBarycenter "Kalidasa"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 132145
+   EllipticalOrbit
+     {
+     Period 23.32
+     SemiMajorAxis 8.163
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 251.54
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Blue Sun:Blue Dragon:Qing Long:34Tauri(2020)E"
+
+   {
+   OrbitBarycenter "White Sun"
+   SpectralType "F0"
+   AbsMag 2.905
+   Radius 973700
+   EllipticalOrbit
+     {
+     Period 2414.95
+     SemiMajorAxis 180.0
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 83.36
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+
+Star "Burnham:P2020(Blue Sun)01"
+
+   {
+   OrbitBarycenter "Blue Sun"
+   SpectralType "G0"
+   AbsMag 4.8
+   Radius 125190
+   EllipticalOrbit
+     {
+     Period 110.30
+     SemiMajorAxis 23.000
+     Eccentricity 0
+     Inclination 0
+     AscendingNode 0
+     ArgOfPericenter 0
+     MeanAnomaly 244.80
+     Epoch 2638364.5
+     }
+   RotationPeriod 720
+   }
+

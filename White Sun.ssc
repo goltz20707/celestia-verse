@@ -1,0 +1,2314 @@
+# Planets of White Sun and its accompanying protostars.
+#
+# Data from "The Verse in Numbers", version 2.1 (http://pics.fireflyprops.net/TVIN-2.1.pdf),
+# except for the following:
+#
+# -- Eccentricity, inclination, ascensing node, and argument of pericenter are all zero.
+#
+# -- Mean anomaly is a random integer from 0-359.99.
+#
+
+"Bernadette" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Bernadette.png"
+  # NightTexture "Bernadette_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 5291
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Bernadette"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 23.70
+    SemiMajorAxis 8.250
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 194.571
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Nautilus" "White Sun/Bernadette"
+
+{
+  Class "moon"
+  # Texture "Nautilus.png"
+  # NightTexture "Nautilus_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 542
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Nautilus"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 426.00
+    SemiMajorAxis 249860.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 308.288
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Spinrad" "White Sun/Bernadette"
+
+{
+  Class "moon"
+  # Texture "Spinrad.png"
+  # NightTexture "Spinrad_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 489
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Spinrad"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 589.68
+    SemiMajorAxis 345960.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 211.209
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Londinium" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Londinium.png"
+  # NightTexture "Londinium_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 9000
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Londinium"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 27.00
+    SemiMajorAxis 9.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 146.458
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Colchester" "White Sun/Londinium"
+
+{
+  Class "moon"
+  # Texture "Colchester.png"
+  # NightTexture "Colchester_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 1572.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Colchester"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 334.08
+    SemiMajorAxis 196044.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 330.817
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Balkerne" "White Sun/Londinium"
+
+{
+  Class "moon"
+  # Texture "Balkerne.png"
+  # NightTexture "Balkerne_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 762
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Balkerne"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 484.80
+    SemiMajorAxis 284456.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 204.589
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Sihnon" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Sihnon.png"
+  # NightTexture "Sihnon_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 6440.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Sihnon"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 28.70
+    SemiMajorAxis 9.375
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 351.549
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Airen" "White Sun/Sihnon"
+
+{
+  Class "moon"
+  # Texture "Airen.png"
+  # NightTexture "Airen_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 735
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Airen"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 131.04
+    SemiMajorAxis 76880.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 184.599
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Xiaojie" "White Sun/Sihnon"
+
+{
+  Class "moon"
+  # Texture "Xiaojie.png"
+  # NightTexture "Xiaojie_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 502
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Xiaojie"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 557.04
+    SemiMajorAxis 326740.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 266.986
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Xiansheng" "White Sun/Sihnon"
+
+{
+  Class "moon"
+  # Texture "Xiansheng.png"
+  # NightTexture "Xiansheng_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 763.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Xiansheng"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 720.72
+    SemiMajorAxis 422840.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 146.848
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Yunnan" "White Sun/Sihnon"
+
+{
+  Class "moon"
+  # Texture "Yunnan.png"
+  # NightTexture "Yunnan_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 1410
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Yunnan"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 1330.08
+    SemiMajorAxis 780332.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 256.858
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Liann Jiun" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Liann_Jiun.png"
+  # NightTexture "Liann_Jiun_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 6978.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Liann_Jiun"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 35.86
+    SemiMajorAxis 10.875
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 56.637
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Tiantan" "White Sun/Liann Jiun"
+
+{
+  Class "moon"
+  # Texture "Tiantan.png"
+  # NightTexture "Tiantan_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 892
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Tiantan"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 334.08
+    SemiMajorAxis 196044.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 313.878
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Fu" "White Sun/Liann Jiun"
+
+{
+  Class "moon"
+  # Texture "Fu.png"
+  # NightTexture "Fu_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 698
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Fu"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 465.12
+    SemiMajorAxis 272924.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 267.271
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Gonghe" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Gonghe.png"
+  # NightTexture "Gonghe_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 5995
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Gonghe"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 43.53
+    SemiMajorAxis 12.375
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 102.703
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Xing Yun" "White Sun/Gonghe"
+
+{
+  Class "moon"
+  # Texture "Xing_Yun.png"
+  # NightTexture "Xing_Yun_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 800.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Xing_Yun"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 576.48
+    SemiMajorAxis 338272.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 293.252
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Rubicon" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Rubicon.png"
+  # NightTexture "Rubicon_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 7537.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Rubicon"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 47.55
+    SemiMajorAxis 13.125
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 305.793
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Osiris" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Osiris.png"
+  # NightTexture "Osiris_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 6761.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Osiris"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 49.60
+    SemiMajorAxis 13.500
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 225.180
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Epeuva" "White Sun/Osiris"
+
+{
+  Class "moon"
+  # Texture "Epeuva.png"
+  # NightTexture "Epeuva_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 923
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Epeuva"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 163.92
+    SemiMajorAxis 96100.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 140.140
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Tannhauser" "White Sun/Osiris"
+
+{
+  Class "moon"
+  # Texture "Tannhauser.png"
+  # NightTexture "Tannhauser_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 679.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Tannhauser"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 373.44
+    SemiMajorAxis 219108.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 218.135
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Santo" "Qin Shi Huang"
+
+{
+  Class "planet"
+  # Texture "Santo.png"
+  # NightTexture "Santo_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 3395
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Santo"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 2.26
+    SemiMajorAxis 0.251
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 108.936
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Tethys" "Qin Shi Huang/Santo"
+
+{
+  Class "moon"
+  # Texture "Tethys.png"
+  # NightTexture "Tethys_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 485
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Tethys"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 196.32
+    SemiMajorAxis 115320.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 26.658
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"New Luxor" "Qin Shi Huang/Santo"
+
+{
+  Class "moon"
+  # Texture "New_Luxor.png"
+  # NightTexture "New_Luxor_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 492.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/New_Luxor"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 393.12
+    SemiMajorAxis 230640.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 102.135
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Valentine" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Valentine.png"
+  # NightTexture "Valentine_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 4679
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Valentine"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 83.64
+    SemiMajorAxis 19.125
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 338.371
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Selene" "White Sun/Valentine"
+
+{
+  Class "moon"
+  # Texture "Selene.png"
+  # NightTexture "Selene_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 501.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Selene"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 104.88
+    SemiMajorAxis 61504.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 159.955
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Selene" "White Sun/Valentine"
+
+{
+  Class "moon"
+  # Texture "Selene.png"
+  # NightTexture "Selene_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 501.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Selene"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 104.88
+    SemiMajorAxis 61504.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 159.955
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Selene" "White Sun/Valentine"
+
+{
+  Class "moon"
+  # Texture "Selene.png"
+  # NightTexture "Selene_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 501.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Selene"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 104.88
+    SemiMajorAxis 61504.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 159.955
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Bellerophon" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Bellerophon.png"
+  # NightTexture "Bellerophon_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 6133
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Bellerophon"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 86.11
+    SemiMajorAxis 19.500
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 165.606
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Tyrins" "White Sun/Bellerophon"
+
+{
+  Class "moon"
+  # Texture "Tyrins.png"
+  # NightTexture "Tyrins_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 728
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Tyrins"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 144.24
+    SemiMajorAxis 84568.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 356.848
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Xanthus" "White Sun/Bellerophon"
+
+{
+  Class "moon"
+  # Texture "Xanthus.png"
+  # NightTexture "Xanthus_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 674.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Xanthus"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 235.92
+    SemiMajorAxis 138384.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 194.072
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Parth" "White Sun/Bellerophon"
+
+{
+  Class "moon"
+  # Texture "Parth.png"
+  # NightTexture "Parth_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 503
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Parth"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 327.60
+    SemiMajorAxis 192200.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 306.805
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Ariel" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Ariel.png"
+  # NightTexture "Ariel_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 6508
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Ariel"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 93.67
+    SemiMajorAxis 20.625
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 103.506
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Ariopolis" "White Sun/Ariel"
+
+{
+  Class "moon"
+  # Texture "Ariopolis.png"
+  # NightTexture "Ariopolis_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 537.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Ariopolis"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 524.16
+    SemiMajorAxis 307520.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 307.496
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Shiva" "White Sun/Ariel"
+
+{
+  Class "moon"
+  # Texture "Shiva.png"
+  # NightTexture "Shiva_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 501.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Shiva"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 602.88
+    SemiMajorAxis 353648.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 109.222
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Poseidon" "White Sun/Ariel"
+
+{
+  Class "moon"
+  # Texture "Poseidon.png"
+  # NightTexture "Poseidon_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 512
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Poseidon"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 668.40
+    SemiMajorAxis 392088.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 25.173
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Albion" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Albion.png"
+  # NightTexture "Albion_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 5380
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Albion"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 98.82
+    SemiMajorAxis 21.375
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 244.463
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Avalon" "White Sun/Albion"
+
+{
+  Class "moon"
+  # Texture "Avalon.png"
+  # NightTexture "Avalon_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 794.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Avalon"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 655.20
+    SemiMajorAxis 384400.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 3.928
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Persephone" "Lux"
+
+{
+  Class "planet"
+  # Texture "Persephone.png"
+  # NightTexture "Persephone_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 7306.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Persephone"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 3.24
+    SemiMajorAxis 0.359
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 72.856
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Hades" "Lux/Persephone"
+
+{
+  Class "moon"
+  # Texture "Hades.png"
+  # NightTexture "Hades_night.png"
+  Color [1.0 0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 509
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Hades"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 262.08
+    SemiMajorAxis 153760.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 324.442
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Renao" "Lux/Persephone"
+
+{
+  Class "moon"
+  # Texture "Renao.png"
+  # NightTexture "Renao_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 496
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Renao"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 399.60
+    SemiMajorAxis 234484.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 307.484
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Pelorum" "Lux"
+
+{
+  Class "planet"
+  # Texture "Pelorum.png"
+  # NightTexture "Pelorum_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 2850
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Pelorum"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 3.42
+    SemiMajorAxis 0.379
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 263.368
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Kaleidoscope" "Lux/Pelorum"
+
+{
+  Class "moon"
+  # Texture "Kaleidoscope.png"
+  # NightTexture "Kaleidoscope_night.png"
+  Color [0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 496.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Kaleidoscope"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 543.84
+    SemiMajorAxis 319052.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 93.855
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Dukkha" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Dukkha.png"
+  # NightTexture "Dukkha_night.png"
+  Color [1.0 0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 1137
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Dukkha"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 248.50
+    SemiMajorAxis 39.526
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 237.545
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Samudaya" "White Sun/Dukkha"
+
+{
+  Class "moon"
+  # Texture "Samudaya.png"
+  # NightTexture "Samudaya_night.png"
+  Color [1.0 0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 603.5
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Samudaya"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 31.20
+    SemiMajorAxis 18350.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 245.551
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Nirodha" "White Sun/Dukkha"
+
+{
+  Class "moon"
+  # Texture "Nirodha.png"
+  # NightTexture "Nirodha_night.png"
+  Color [1.0 0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 51
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Nirodha"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 110.40
+    SemiMajorAxis 64749.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 202.787
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Magga" "White Sun/Dukkha"
+
+{
+  Class "moon"
+  # Texture "Magga.png"
+  # NightTexture "Magga_night.png"
+  Color [1.0 0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 48
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Magga"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 83.04
+    SemiMajorAxis 48708.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 52.612
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Ra Amiran" "White Sun"
+
+{
+  Class "planet"
+  # Texture "Ra_Amiran.png"
+  # NightTexture "Ra_Amiran_night.png"
+  Color [1.0 1.0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 1249
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Ra_Amiran"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 261.26
+    SemiMajorAxis 40.867
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 36.548
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
+"Namira" "White Sun/Ra Amiran"
+
+{
+  Class "moon"
+  # Texture "Namira.png"
+  # NightTexture "Namira_night.png"
+  Color [1.0 0 0]
+  SpecularColor [1.0 1.0 1.0]
+  SpecularPower 25.0
+  HazeColor [0.7 0.7 0.7]
+  HazeDensity 0.8
+  Radius 121
+  Oblateness 0.000
+  InfoURL "http://firefly.wikia.com/wiki/Namira"
+
+  Atmosphere
+  {
+    Height 70
+    Lower [0 0 0]
+    Upper [0 0 0]
+    Sky [0 0 1]
+    CloudHeight 40
+    CloudSpeed 50
+#    CloudMap "filename"
+  }
+  EllipticalOrbit
+  {
+    Period 58.56
+    SemiMajorAxis 34347.000
+    Eccentricity 0
+    Inclination 0
+    AscendingNode 0
+    ArgOfPericenter 0
+    MeanAnomaly 33.057
+    Epoch 2638364.5
+  }
+
+  RotationPeriod 23.9344694
+  Obliquity 0.0
+  LongOfRotationAxis 76.681
+  RotationOffset 280.5
+  PrecessionRate 48.
+  Orientation [180 1 0 0]
+  EquatorAscendingNode 180
+
+  Albedo 0.10
+}
+
