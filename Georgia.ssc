@@ -429,8 +429,7 @@
   Albedo 0.10
 }
 
-#"Ithaca" "Ithaca-Priam"
-"Ithaca" "Georgia"
+"Ithaca" "Ithaca-Priam"
 
 {
   Class "planet"
@@ -457,9 +456,8 @@
   }
   EllipticalOrbit
   {
-    Period 4.19
-#    SemiMajorAxis 31141.5
-    SemiMajorAxis 2.600
+    Period 0.0194387405886379
+    SemiMajorAxis 0.000208192940232651
     Eccentricity 0
     Inclination 0
     AscendingNode 0
@@ -479,8 +477,7 @@
   Albedo 0.10
 }
 
-#"Priam" "Georgia/Ithaca-Priam"
-"Priam" "Georgia/Ithaca"
+"Priam" "Ithaca-Priam"
 
 {
   Class "moon"
@@ -507,13 +504,13 @@
   }
   EllipticalOrbit
   {
-    Period 170.40
-    SemiMajorAxis 99944.000
+    Period 0.0194387405886379
+    SemiMajorAxis 0.00066816419307394
     Eccentricity 0
     Inclination 0
     AscendingNode 0
     ArgOfPericenter 0
-    MeanAnomaly 70.205
+    MeanAnomaly 89.241
     Epoch 2638364.5
   }
 

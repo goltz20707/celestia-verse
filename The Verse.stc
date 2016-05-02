@@ -86,22 +86,22 @@ Star "Georgia:Yellow Dragon:Huang Long:34 Tauri(2020)B"
    RotationPeriod 720
    }
 
-# Barycenter "Ithaca-Priam"
-# {
-#    OrbitBarycenter "Georgia"
-#    EllipticalOrbit
-#      {
-#       Period 4.19
-#       SemiMajorAxis 2.600
-#       Eccentricity 0
-#       Inclination 0
-#       AscendingNode 0
-#       ArgOfPericenter 0
-#       MeanAnomaly 269.241
-#       Epoch 2638364.5
-#      }
-#    }
-# }
+Barycenter "Ithaca-Priam"
+{
+   OrbitBarycenter "Georgia"
+   EllipticalOrbit
+     {
+      Period 4.19
+      SemiMajorAxis 2.600
+      Eccentricity 0
+      Inclination 0
+      AscendingNode 0
+      ArgOfPericenter 0
+      MeanAnomaly 269.241
+      Epoch 2638364.5
+     }
+   }
+}
 
 Star "Murphy:P/2020(Georgia)01"
 
