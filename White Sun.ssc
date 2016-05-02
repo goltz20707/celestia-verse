@@ -12,13 +12,13 @@
 
 {
   Class "planet"
-  # Texture "Bernadette.png"
+  Texture "Bernadette.png"
   # NightTexture "Bernadette_night.png"
-  Color [0 1.0 0]
-  SpecularColor [1.0 1.0 1.0]
-  SpecularPower 25.0
-  HazeColor [0.7 0.7 0.7]
-  HazeDensity 0.8
+  #Color [0 1.0 0]
+  #SpecularColor [1.0 1.0 1.0]
+  #SpecularPower 25.0
+  #HazeColor [0.7 0.7 0.7]
+  #HazeDensity 0.8
   Radius 5291
   Oblateness 0.000
   InfoURL "http://firefly.wikia.com/wiki/Bernadette"
@@ -26,12 +26,15 @@
   Atmosphere
   {
     Height 70
-    Lower [0 0 0]
-    Upper [0 0 0]
-    Sky [0 0 1]
-    CloudHeight 40
-    CloudSpeed 50
-#    CloudMap "filename"
+    Lower [ 0.43 0.52 0.65 ]
+    Upper [ 0.26 0.47 0.84 ]
+    Sky [ 0.40 0.6 1.0 ]
+    Sunset [ 1.0 0.6 0.2 ]
+    CloudHeight 7
+    CloudSpeed 65
+#    CloudMap "Clouds.*"
+    CloudMap "earth-clouds.*"
+    CloudShadowDepth 1.0
   }
   EllipticalOrbit
   {
@@ -2312,3 +2315,6 @@
   Albedo 0.10
 }
 
+# Local Variables:
+# comment-start: "# "
+# End:
